@@ -1,5 +1,6 @@
 package no.habitats.amazingdice;
 
+import no.habitats.amazingdice.ShakeDetector.OnShakeListener;
 import android.app.Activity;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
@@ -9,14 +10,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import no.habitats.amazingdice.R;
-import no.habitats.amazingdice.ShakeDetector.OnShakeListener;
 
 public class MainActivity extends Activity {
   // good practice to do it like this
