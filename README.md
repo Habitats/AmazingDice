@@ -1,5 +1,5 @@
 AmazingDice
 ===========
 
-A really simple dice-trowing application.
+A really simple dice-trowing Android application.
 
